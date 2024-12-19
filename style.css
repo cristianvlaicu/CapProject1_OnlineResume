@@ -15,7 +15,7 @@ header{
 
 .contactMe {
   font-size: 2rem;
-  background: rgba(0, 126, 38, 0.2);
+  background: rgba(4, 0, 126, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +26,7 @@ header{
 
 .hobbies {
   font-size: 2rem;
-  background: rgba(0, 126, 38, 0.2);
+  background: rgba(4, 0, 126, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,8 +35,29 @@ header{
   margin: 0;
 }
 
-.skills-list {
+.skills {
+  max-width: 80%;
+}
+
+.skills h2 {
+  margin-bottom: 10px;
+}
+
+.skills ul {
   list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.skills .stars {
+  color: #ffc107; /* Amarillo para las estrellas */
+  white-space: nowrap;
 }
 
 .contact-list {
