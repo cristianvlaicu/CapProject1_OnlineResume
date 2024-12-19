@@ -34,3 +34,41 @@ header{
   height: 100vh;
   margin: 0;
 }
+
+.skills-list {
+  list-style: none;
+}
+
+.contact-list {
+  list-style:none;
+}
+
+.hobbies-list {
+  list-style:none;
+}
+
+.other {
+  text-decoration: none;
+  color: black
+}
+
+.other:hover {
+  color: green
+}
+.contact {
+  text-decoration: none;
+  color: black
+}
+
+.contact:hover {
+  color: green
+}
+.footer-link {
+  text-decoration: none;
+  color: black
+}
+
+.footer-link:hover {
+  color: green
+}
+
