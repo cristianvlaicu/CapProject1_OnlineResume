@@ -1,10 +1,16 @@
-.index {
+main {
   font-size: 1.5rem;
   background: rgb(131,58,180);
   background: linear-gradient(180deg, rgba(131,58,180,0.2) 0%, rgba(253,29,29,0.2) 50%, rgba(252,176,69,0.2) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.index {
+  margin: 0;
+  padding: 0;
 }
 
 header{
@@ -12,9 +18,13 @@ header{
   flex-direction: column;
   align-items: center;
 }
+.photo {
+  width: 20%;
+  border-radius: 100%;
+}
 
 .contactMe {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: rgba(4, 0, 126, 0.2);
   display: flex;
   flex-direction: column;
@@ -25,7 +35,7 @@ header{
   }
 
 .hobbies {
-  font-size: 2rem;
+  font-size: 1.5rem;
   background: rgba(4, 0, 126, 0.2);
   display: flex;
   flex-direction: column;
@@ -36,10 +46,11 @@ header{
 }
 
 .skills {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .skills h2 {
+  text-align: center;
   margin-bottom: 10px;
 }
 
@@ -62,10 +73,12 @@ header{
 
 .contact-list {
   list-style:none;
+  margin-bottom: 10rem;
 }
 
 .hobbies-list {
   list-style:none;
+  margin-bottom: 10rem;
 }
 
 .other {
@@ -84,6 +97,7 @@ header{
 .contact:hover {
   color: green
 }
+
 .footer-link {
   text-decoration: none;
   color: black
@@ -93,3 +107,12 @@ header{
   color: green
 }
 
+.back a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.back a:hover {
+  color: green;
+}
